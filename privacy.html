@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy â CollectLocal</title>
+    <meta name="description" content="CollectLocal Privacy Policy â Learn how we collect, use, and protect your data.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0a1628;
+            --navy-light: #111d33;
+            --navy-mid: #162440;
+            --teal: #14b8a6;
+            --teal-light: #2dd4bf;
+            --teal-dark: #0d9488;
+            --teal-glow: rgba(20, 184, 166, 0.15);
+            --white: #f1f5f9;
+            --gray: #94a3b8;
+            --gray-light: #cbd5e1;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--navy);
+            color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        nav {
+            position: fixed; top: 0; width: 100%;
+            padding: 1rem 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+            z-index: 100;
+            background: rgba(10, 22, 40, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(20, 184, 166, 0.1);
+        }
+        .logo { font-size: 1.25rem; font-weight: 800; color: var(--white); text-decoration: none; letter-spacing: -0.02em; }
+        .logo span { color: var(--teal); }
+        .nav-cta {
+            background: var(--teal); color: var(--navy);
+            padding: 0.5rem 1.25rem; border-radius: 8px;
+            text-decoration: none; font-weight: 600; font-size: 0.875rem;
+            transition: background 0.2s;
+        }
+        .nav-cta:hover { background: var(--teal-light); }
+        .page-header {
+            padding: 8rem 2rem 3rem;
+            text-align: center;
+            position: relative;
+        }
+        .page-header::before {
+            content: '';
+            position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+            width: 600px; height: 400px;
+            background: radial-gradient(circle, var(--teal-glow) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .page-header h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800; letter-spacing: -0.03em;
+            position: relative; z-index: 1;
+        }
+        .page-header h1 .teal { color: var(--teal); }
+        .page-header .effective {
+            color: var(--gray); font-size: 0.95rem;
+            margin-top: 0.75rem; position: relative; z-index: 1;
+        }
+        .content {
+            max-width: 800px; margin: 0 auto;
+            padding: 2rem 2rem 6rem;
+        }
+        .content h2 {
+            font-size: 1.4rem; font-weight: 700;
+            color: var(--teal-light);
+            margin: 2.5rem 0 1rem;
+            letter-spacing: -0.01em;
+        }
+        .content h3 {
+            font-size: 1.1rem; font-weight: 600;
+            color: var(--white);
+            margin: 1.5rem 0 0.5rem;
+        }
+        .content p {
+            color: var(--gray-light);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+        .content ul {
+            list-style: none;
+            margin-bottom: 1rem;
+            padding-left: 0;
+        }
+        .content ul li {
+            color: var(--gray-light);
+            font-size: 0.95rem;
+            padding: 0.3rem 0 0.3rem 1.5rem;
+            position: relative;
+        }
+        .content ul li::before {
+            content: '\2022';
+            color: var(--teal);
+            font-weight: 700;
+            position: absolute;
+            left: 0.25rem;
+        }
+        .content a {
+            color: var(--teal-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .content a:hover { color: var(--teal); text-decoration: underline; }
+        .content .card {
+            background: var(--navy-light);
+            border: 1px solid rgba(20, 184, 166, 0.08);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        footer {
+            padding: 2rem; text-align: center;
+            border-top: 1px solid rgba(20, 184, 166, 0.08);
+        }
+        .footer-links {
+            display: flex; gap: 1.5rem; justify-content: center;
+            margin-bottom: 1rem; flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: var(--gray); text-decoration: none;
+            font-size: 0.85rem; transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--teal-light); }
+        footer p { color: rgba(148, 163, 184, 0.5); font-size: 0.8rem; }
+        @media (max-width: 768px) {
+            nav { padding: 0.75rem 1.25rem; }
+            .page-header { padding: 6rem 1.5rem 2rem; }
+            .content { padding: 1.5rem 1.5rem 4rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="./" class="logo">Collect<span>Local</span></a>
+        <a href="./" class="nav-cta">Back to Home</a>
+    </nav>
+
+    <div class="page-header">
+        <h1>Privacy <span class="teal">Policy</span></h1>
+        <p class="effective">Effective Date: March 21, 2026</p>
+    </div>
+
+    <div class="content">
+        <p>CollectLocal ("we," "our," or "us") operates the CollectLocal mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App. Please read this policy carefully. By using CollectLocal, you agree to the collection and use of information in accordance with this policy.</p>
+
+        <h2>1. Information We Collect</h2>
+
+        <h3>Personal Information</h3>
+        <p>When you create an account or use CollectLocal, we may collect the following personal information:</p>
+        <ul>
+            <li>Name and display name</li>
+            <li>Email address</li>
+            <li>Profile photo</li>
+            <li>Account credentials (managed securely through our authentication provider)</li>
+        </ul>
+
+        <h3>Location Data</h3>
+        <p>CollectLocal is a map-first marketplace, and location data is central to how the App works. We collect:</p>
+        <ul>
+            <li>Precise location data (GPS) when you use the deal map to show nearby listings</li>
+            <li>Approximate location for deal discovery and restock alert relevance</li>
+        </ul>
+        <p>You can control location access through your device settings at any time. Disabling location services will limit the App's core map functionality.</p>
+
+        <h3>User-Generated Content</h3>
+        <ul>
+            <li>Card listings you create (photos, descriptions, pricing)</li>
+            <li>Messages sent through in-app chat</li>
+            <li>Portfolio data (your card collections and associated values)</li>
+            <li>Card images submitted for AI identification</li>
+        </ul>
+
+        <h3>Device and Usage Information</h3>
+        <ul>
+            <li>Device type, operating system, and version</li>
+            <li>Unique device identifiers</li>
+            <li>App usage patterns and feature interactions</li>
+            <li>Crash logs and performance data</li>
+            <li>IP address</li>
+        </ul>
+
+        <h3>Transaction Information</h3>
+        <p>If you subscribe to CollectLocal Pro, payment processing is handled entirely by Apple through in-app purchases. We do not collect, store, or have access to your payment card details. We receive confirmation of your subscription status from Apple.</p>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li>Provide and operate the CollectLocal marketplace, including map-based deal discovery</li>
+            <li>Display relevant local TCG deals based on your location</li>
+            <li>Enable in-app messaging between buyers and sellers</li>
+            <li>Power AI card identification (images are processed by our AI provider to identify cards and retrieve market pricing)</li>
+            <li>Send restock alerts for TCG products at nearby retailers</li>
+            <li>Track and display your card portfolio value over time</li>
+            <li>Manage your account and provide customer support</li>
+            <li>Send push notifications for deals, restocks, and messages (with your permission)</li>
+            <li>Analyze usage patterns to improve the App's features and performance</li>
+            <li>Enforce our Terms of Service and protect against misuse</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>CollectLocal relies on the following third-party services to operate. Each service receives only the data necessary for its function:</p>
+
+        <div class="card">
+            <h3>Supabase</h3>
+            <p>Provides our backend infrastructure, database, and user authentication. Stores account data, listings, messages, and portfolio information. <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase Privacy Policy</a></p>
+        </div>
+
+        <div class="card">
+            <h3>Firebase (Google)</h3>
+            <p>Used for push notification delivery. Receives device tokens to send you alerts about deals, messages, and restocks. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></p>
+        </div>
+
+        <div class="card">
+            <h3>Google Gemini AI</h3>
+            <p>Powers our AI card identification feature. When you scan a card, the image is sent to Google's Gemini AI for identification. Images are processed for identification purposes and are not used to train AI models. <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API Terms</a></p>
+        </div>
+
+        <div class="card">
+            <h3>Analytics (PostHog)</h3>
+            <p>We use analytics tools to understand how users interact with the App, identify issues, and improve features. Analytics data is aggregated and used internally. <a href="https://posthog.com/privacy" target="_blank" rel="noopener">PostHog Privacy Policy</a></p>
+        </div>
+
+        <div class="card">
+            <h3>Apple (In-App Purchases)</h3>
+            <p>Processes all Pro subscription payments. We do not handle your financial information directly. <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a></p>
+        </div>
+
+        <h2>4. Public Data Sources</h2>
+        <p>CollectLocal aggregates publicly available TCG deal listings from sources such as Facebook Marketplace to display them on the deal map. This data is publicly accessible and does not involve access to private user accounts or non-public information.</p>
+        <p>Restock alerts are generated by checking publicly available product inventory information from retailers such as Target and Walmart. No private retailer data is accessed.</p>
+
+        <h2>5. Location Data &amp; Your Control</h2>
+        <p>Location data is essential to CollectLocal's map-based experience. Here is how we handle it:</p>
+        <ul>
+            <li>Location data is used to show you nearby deals and relevant restock alerts</li>
+            <li>We do not sell your location data to third parties</li>
+            <li>We do not use location data for advertising purposes</li>
+            <li>You can disable location access at any time in your iOS Settings &gt; Privacy &gt; Location Services &gt; CollectLocal</li>
+            <li>If you disable location access, you can still browse the App, but the map and location-based features will be limited</li>
+        </ul>
+
+        <h2>6. AI-Powered Features</h2>
+        <p>Our AI Card Scanner uses Google's Gemini AI to identify trading cards from photos. When you use this feature:</p>
+        <ul>
+            <li>The card image you capture is sent to Google's Gemini AI API for processing</li>
+            <li>The AI returns card identification results and associated market pricing data</li>
+            <li>Images are processed in real-time and are not permanently stored by the AI service for training purposes</li>
+            <li>Card identification results are advisory â they are not a guarantee of card identity or value</li>
+        </ul>
+
+        <h2>7. Data Retention &amp; Deletion</h2>
+        <p>We retain your personal data for as long as your account is active or as needed to provide you services. Specifically:</p>
+        <ul>
+            <li>Account data is retained while your account is active</li>
+            <li>Messages are retained to support ongoing conversations and dispute resolution</li>
+            <li>Usage and analytics data may be retained in aggregated, anonymized form</li>
+        </ul>
+        <p>You may request deletion of your account and associated personal data at any time by contacting us at <a href="mailto:omark101@gmail.com">omark101@gmail.com</a>. Upon receiving a verified deletion request, we will delete your personal data within 30 days, except where retention is required by law or for legitimate business purposes (such as fraud prevention).</p>
+        <p>In-app account deletion is also available through the App's settings.</p>
+
+        <h2>8. Data Security</h2>
+        <p>We implement appropriate technical and organizational measures to protect your personal information, including:</p>
+        <ul>
+            <li>Encrypted data transmission (TLS/SSL)</li>
+            <li>Secure authentication through Supabase Auth</li>
+            <li>Row-level security policies on our database</li>
+            <li>Regular security reviews of our infrastructure</li>
+        </ul>
+        <p>While we strive to protect your data, no method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security.</p>
+
+        <h2>9. Children's Privacy</h2>
+        <p>CollectLocal is not intended for use by anyone under the age of 18. We do not knowingly collect personal information from children under 18. CollectLocal is a marketplace that may involve in-person meetups, and as such, is designed for adult users only.</p>
+        <p>If we become aware that we have collected personal data from a user under 18, we will take steps to delete that information promptly. If you believe a child under 18 has provided us with personal data, please contact us at <a href="mailto:omark101@gmail.com">omark101@gmail.com</a>.</p>
+
+        <h2>10. Your Rights â California Residents (CCPA)</h2>
+        <p>If you are a California resident, you have the following rights under the California Consumer Privacy Act (CCPA):</p>
+        <ul>
+            <li><strong>Right to Know:</strong> You can request information about the categories and specific pieces of personal data we have collected about you</li>
+            <li><strong>Right to Delete:</strong> You can request that we delete the personal data we have collected from you, subject to certain exceptions</li>
+            <li><strong>Right to Opt-Out of Sale:</strong> We do not sell your personal information. CollectLocal has never sold user data and has no plans to do so</li>
+            <li><strong>Right to Non-Discrimination:</strong> We will not discriminate against you for exercising your privacy rights</li>
+        </ul>
+        <p>To exercise any of these rights, contact us at <a href="mailto:omark101@gmail.com">omark101@gmail.com</a>. We will respond to verified requests within 45 days.</p>
+
+        <h2>11. Do Not Track</h2>
+        <p>CollectLocal does not currently respond to "Do Not Track" browser signals, as there is no industry-standard technology for doing so. However, we do not track users across third-party websites or services for advertising purposes.</p>
+
+        <h2>12. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. When we make changes, we will update the "Effective Date" at the top of this page and, for material changes, notify you through the App or via email. Your continued use of CollectLocal after any changes indicates your acceptance of the updated policy.</p>
+
+        <h2>13. Contact Us</h2>
+        <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+        <div class="card">
+            <p><strong>CollectLocal</strong><br>
+            Email: <a href="mailto:omark101@gmail.com">omark101@gmail.com</a><br>
+            Developer: Omar<br>
+            Dallas, Texas</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://tiktok.com/@itspokekhan" target="_blank">TikTok</a>
+            <a href="https://instagram.com/itspokekhan" target="_blank">Instagram</a>
+            <a href="mailto:omark101@gmail.com">Contact</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./terms.html">Terms of Service</a>
+        </div>
+        <p>&copy; 2026 CollectLocal. Built with &#9749; in Dallas, TX.</p>
+    </footer>
+</body>
+</html>
+
