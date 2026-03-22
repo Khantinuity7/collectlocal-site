@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CollectLocal â Find Great Deals, Locally</title>
+    <title>CollectLocal - Find Great Deals, Locally</title>
     <meta name="description" content="Map-first marketplace for Pokemon, MTG, and Yu-Gi-Oh cards. AI-powered deal scoring, restock alerts, and local meetups. Free on iOS.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://khantinuity7.github.io/collectlocal-site/">
-    <meta property="og:title" content="CollectLocal — Find TCG Deals Near You">
+    <meta property="og:title" content="CollectLocal - Find TCG Deals Near You">
     <meta property="og:description" content="Map-first marketplace for Pokemon, MTG, and Yu-Gi-Oh cards. AI-powered deal scoring, restock alerts, and local meetups. Free on iOS.">
-    <!-- og:image — TODO: replace with actual 1200x630 social share image -->
+    <!-- og:image - TODO: replace with actual 1200x630 social share image -->
     <meta property="og:image" content="">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@itspokekhan">
-    <meta name="twitter:title" content="CollectLocal — Find TCG Deals Near You">
+    <meta name="twitter:title" content="CollectLocal - Find TCG Deals Near You">
     <meta name="twitter:description" content="Map-first marketplace for Pokemon, MTG, and Yu-Gi-Oh cards. AI-powered deal scoring, restock alerts, and local meetups. Free on iOS.">
 
     <!-- Theme Color -->
@@ -47,7 +47,7 @@
         .btn-primary svg { width: 20px; height: 20px; }
         .btn-secondary { display: inline-flex; align-items: center; gap: 0.5rem; background: transparent; color: var(--white); padding: 0.875rem 2rem; border-radius: 12px; text-decoration: none; font-weight: 600; font-size: 1rem; border: 1px solid rgba(241, 245, 249, 0.2); transition: all 0.2s; }
         .btn-secondary:hover { border-color: var(--teal); color: var(--teal-light); }
-        .hero-phone { margin-top: 3rem; display: flex; justify-content: center; animation: float 4s ease-in-out infinite; }
+        .hero-phone { margin-top: 3rem; display: flex; justify-content: center; }
         .phone-frame { width: 280px; height: 560px; background: var(--navy-light); border-radius: 36px; border: 3px solid rgba(20, 184, 166, 0.2); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; box-shadow: 0 40px 80px rgba(0,0,0,0.4), 0 0 60px var(--teal-glow); }
         .phone-frame::before { content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 120px; height: 28px; background: var(--navy); border-radius: 0 0 16px 16px; }
         .deal-pins { position: absolute; width: 100%; height: 100%; }
@@ -106,27 +106,36 @@
     <section class="hero"><div class="hero-content">
         <div class="badge">Now live in Dallas-Fort Worth</div>
         <h1>Find great deals, <span class="teal">locally.</span></h1>
-        <p class="hero-sub">The map-first TCG marketplace that shows you every card deal nearby â scored, priced, and ready to go. Stop overpaying. Start collecting smarter.</p>
-        <div class="cta-group"><a href="#download" class="btn-primary"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg> Download on iOS</a><a href="#features" class="btn-secondary">See features</a></div>
-        <div class="hero-phone"><div class="phone-frame"><div class="map-bg"></div><div class="deal-pins"><div class="deal-pin pin-great">Great</div><div class="deal-pin pin-good">Good</div><div class="deal-pin pin-fair">Fair</div><div class="deal-pin pin-great2">Great</div><div class="deal-pin pin-expensive">Expensive</div></div><div class="phone-placeholder"></div></div></div>
+        <p class="hero-sub">The map-first TCG marketplace that shows you every card deal nearby -- scored, priced, and ready to go. Stop overpaying. Start collecting smarter.</p>
+        <div class="cta-group"><a href="#download" class="btn-primary" onclick="alert('Coming Soon to the App Store!'); return false;"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg> Download on iOS</a><a href="#features" class="btn-secondary">See features</a></div>
+        <div class="hero-phone">
+            <div style="width:280px;height:500px;background:#111d33;border-radius:36px;border:2px solid rgba(20,184,166,0.2);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1rem;box-shadow:0 40px 80px rgba(0,0,0,0.3),0 0 60px rgba(20,184,166,0.15);">
+                <div style="color:#94a3b8;font-size:0.95rem;font-weight:600;letter-spacing:0.02em;">App Preview Coming Soon</div>
+                <div style="color:rgba(148,163,184,0.5);font-size:0.75rem;font-weight:500;">CollectLocal for iOS</div>
+            </div>
+        </div>
     </div></section>
     <section class="features" id="features"><div class="section-label">Features</div><h2 class="section-title">Everything you need to collect smarter</h2><p class="section-subtitle">Built by a collector who was tired of overpaying on Facebook Marketplace. Every feature solves a real problem.</p>
         <div class="features-grid">
-            <div class="feature-card"><div class="feature-icon">ðºï¸</div><h3>Deal Map</h3><p>Every TCG deal near you, right on a map. See whatâs available without scrolling a single feed. Filter by distance, price, card type, and deal quality.</p><div class="deal-scores"><span class="score-tag score-great">Great</span><span class="score-tag score-good">Good</span><span class="score-tag score-fair">Fair</span><span class="score-tag score-expensive">Expensive</span></div></div>
-            <div class="feature-card"><div class="feature-icon">ð¸</div><h3>AI Card Scanner</h3><p>Point your camera at any card, lot, or binder. Instant identification and real-time market pricing. Know exactly what youâre buying before you meet up.</p></div>
-            <div class="feature-card"><div class="feature-icon">ð</div><h3>Restock Alerts</h3><p>Get notified when Target and Walmart restock TCG products. Checks inventory every 15 minutes. Be first, not last.</p></div>
-            <div class="feature-card"><div class="feature-icon">ð</div><h3>Portfolio Tracker</h3><p>Track your entire collectionâs value over time. Robinhood-style charts, real-time market prices. See your collection grow â or know when to sell.</p></div>
+            <div class="feature-card"><div class="feature-icon">MAP</div>
+            <h3>Deal Map</h3><p>Every TCG deal near you, right on a map. See what's available without scrolling a single feed. Filter by distance, price, card type, and deal quality.</p><div class="deal-scores"><span class="score-tag score-great">Great</span><span class="score-tag score-good">Good</span><span class="score-tag score-fair">Fair</span><span class="score-tag score-expensive">Expensive</span></div></div>
+            <div class="feature-card"><div class="feature-icon">SCAN</div>
+            <h3>AI Card Scanner</h3><p>Point your camera at any card, lot, or binder. Instant identification and real-time market pricing. Know exactly what you're buying before you meet up.</p></div>
+            <div class="feature-card"><div class="feature-icon">ALERT</div>
+            <h3>Restock Alerts</h3><p>Get notified when Target and Walmart restock TCG products. Checks inventory every 15 minutes. Be first, not last.</p></div>
+            <div class="feature-card"><div class="feature-icon">TRACK</div>
+            <h3>Portfolio Tracker</h3><p>Track your entire collection's value over time. Robinhood-style charts, real-time market prices. See your collection grow -- or know when to sell.</p></div>
         </div>
     </section>
     <section class="how-it-works"><div class="section-label">How It Works</div><h2 class="section-title">From download to deal in 5 minutes</h2><p class="section-subtitle">No setup headaches. No account linking. Just open the app and start finding deals.</p>
         <div class="steps">
-            <div class="step"><div class="step-marker"><div class="step-number">1</div><div class="step-line"></div></div><div class="step-content"><h3>Open the map</h3><p>CollectLocal shows every TCG deal near you the moment you open it. Deals appear as pins on the map â tap any one to see details.</p></div></div>
-            <div class="step"><div class="step-marker"><div class="step-number">2</div><div class="step-line"></div></div><div class="step-content"><h3>Check the deal score</h3><p>Every listing is automatically scored Great, Good, Fair, or Expensive. No more guessing if a price is fair â CollectLocal tells you instantly.</p></div></div>
+            <div class="step"><div class="step-marker"><div class="step-number">1</div><div class="step-line"></div></div><div class="step-content"><h3>Open the map</h3><p>CollectLocal shows every TCG deal near you the moment you open it. Deals appear as pins on the map -- tap any one to see details.</p></div></div>
+            <div class="step"><div class="step-marker"><div class="step-number">2</div><div class="step-line"></div></div><div class="step-content"><h3>Check the deal score</h3><p>Every listing is automatically scored Great, Good, Fair, or Expensive. No more guessing if a price is fair -- CollectLocal tells you instantly.</p></div></div>
             <div class="step"><div class="step-marker"><div class="step-number">3</div><div class="step-line"></div></div><div class="step-content"><h3>Message the seller</h3><p>Found something good? Message the seller directly in the app. Set up a meetup with built-in location verification for safety.</p></div></div>
             <div class="step"><div class="step-marker"><div class="step-number">4</div><div class="step-line"></div></div><div class="step-content"><h3>Collect smarter</h3><p>Add your pickups to your portfolio, set restock alerts, and never miss a deal again. The more you use it, the better it gets.</p></div></div>
         </div>
     </section>
-    <section class="pricing" id="pricing"><div class="section-label">Pricing</div><h2 class="section-title">Free to use. Pro if youâre serious.</h2><p class="section-subtitle">The core features are completely free. No ads, no tricks. Pro unlocks the full toolkit.</p>
+    <section class="pricing" id="pricing"><div class="section-label">Pricing</div><h2 class="section-title">Free to use. Pro if you're serious.</h2><p class="section-subtitle">The core features are completely free. No ads, no tricks. Pro unlocks the full toolkit.</p>
         <div class="pricing-cards">
             <div class="pricing-card"><h3>Free</h3><div class="price">$0</div><ul class="pricing-features"><li>Map-based deal discovery</li><li>Deal scoring on all listings</li><li>AI card scanner</li><li>Basic restock alerts</li><li>Portfolio tracking</li><li>In-app messaging</li></ul></div>
             <div class="pricing-card pro"><div class="pro-badge">MOST POPULAR</div><h3>Pro</h3><div class="price">$6.99<span>/mo</span></div><ul class="pricing-features"><li>Everything in Free</li><li>Unlimited restock alerts</li><li>Advanced deal filters</li><li>Deal notifications</li><li>Extended portfolio analytics</li><li>Priority new features</li></ul></div>
@@ -135,9 +144,9 @@
     <section class="final-cta" id="download"><div class="final-cta-content">
         <h2>Stop overpaying for cards.</h2>
         <p>Join collectors in DFW who are finding better deals with CollectLocal. Free on iOS.</p>
-        <a href="#" class="btn-primary"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg> Download on the App Store</a>
+        <a href="#download" class="btn-primary" onclick="alert('Coming Soon to the App Store!'); return false;"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg> Download on the App Store</a>
         <p style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--gray);">Launching in Dallas-Fort Worth. More cities coming soon.</p>
     </div></section>
-    <footer><div class="footer-links"><a href="https://tiktok.com/@itspokekhan" target="_blank">TikTok</a><a href="https://instagram.com/itspokekhan" target="_blank">Instagram</a><a href="mailto:omark101@gmail.com">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div><p>Â© 2026 CollectLocal. Built with â in Dallas, TX.</p></footer>
+    <footer><div class="footer-links"><a href="https://tiktok.com/@itspokekhan" target="_blank">TikTok</a><a href="https://instagram.com/itspokekhan" target="_blank">Instagram</a><a href="mailto:omark101@gmail.com">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div><p>&copy; 2026 CollectLocal. Built with &hearts; in Dallas, TX.</p></footer>
 </body>
 </html>
